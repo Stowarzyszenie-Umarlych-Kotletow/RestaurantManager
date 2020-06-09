@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\net">
+      <UniqueIdentifier>{722ebc02-1b81-401d-aeb4-3231f309da9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\serialization">
+      <UniqueIdentifier>{5090d97b-8df6-442f-8404-1826162af138}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\net">
+      <UniqueIdentifier>{559a755e-ebb0-4ed6-8575-3a068d2116a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\serialization">
+      <UniqueIdentifier>{0df2c793-3164-4f7d-838e-0d93189c4839}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\models">
+      <UniqueIdentifier>{9c135249-5ff2-4a2f-b0ea-903f163f62d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\models\packets">
+      <UniqueIdentifier>{bd3eadc1-934e-406e-9c87-e315cafe1915}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\models">
+      <UniqueIdentifier>{1d4ea0d4-dbb7-4da7-b617-d5dfb79f72b1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="types.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ConnectionBase.h">
+      <Filter>Header Files\net</Filter>
+    </ClInclude>
+    <ClInclude Include="DataBag.h">
+      <Filter>Header Files\net</Filter>
+    </ClInclude>
+    <ClInclude Include="Serializable.h">
+      <Filter>Header Files\serialization</Filter>
+    </ClInclude>
+    <ClInclude Include="binary.h">
+      <Filter>Header Files\serialization</Filter>
+    </ClInclude>
+    <ClInclude Include="models.h">
+      <Filter>Header Files\serialization</Filter>
+    </ClInclude>
+    <ClInclude Include="serialization.h">
+      <Filter>Header Files\serialization</Filter>
+    </ClInclude>
+    <ClInclude Include="Connection.h">
+      <Filter>Header Files\net</Filter>
+    </ClInclude>
+    <ClInclude Include="net_constants.h">
+      <Filter>Header Files\net</Filter>
+    </ClInclude>
+    <ClInclude Include="Server.h">
+      <Filter>Header Files\net</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseLibrary.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PingService.h">
+      <Filter>Header Files\net</Filter>
+    </ClInclude>
+    <ClInclude Include="C2S_Authorize.h">
+      <Filter>Header Files\models\packets</Filter>
+    </ClInclude>
+    <ClInclude Include="Ping.h">
+      <Filter>Header Files\models\packets</Filter>
+    </ClInclude>
+    <ClInclude Include="PingReply.h">
+      <Filter>Header Files\models\packets</Filter>
+    </ClInclude>
+    <ClInclude Include="S2C_AuthorizeReply.h">
+      <Filter>Header Files\models\packets</Filter>
+    </ClInclude>
+    <ClInclude Include="UserPermissions.h">
+      <Filter>Header Files\models</Filter>
+    </ClInclude>
+    <ClInclude Include="DateTime.h">
+      <Filter>Header Files\models</Filter>
+    </ClInclude>
+    <ClInclude Include="Date.h">
+      <Filter>Header Files\models</Filter>
+    </ClInclude>
+    <ClInclude Include="Shift.h">
+      <Filter>Header Files\models</Filter>
+    </ClInclude>
+    <ClInclude Include="ShiftWorker.h">
+      <Filter>Header Files\models</Filter>
+    </ClInclude>
+    <ClInclude Include="TrackablePacket.h">
+      <Filter>Header Files\models</Filter>
+    </ClInclude>
+    <ClInclude Include="TransactionReply.h">
+      <Filter>Header Files\models</Filter>
+    </ClInclude>
+    <ClInclude Include="C2S_GetWorkers.h">
+      <Filter>Header Files\models\packets</Filter>
+    </ClInclude>
+    <ClInclude Include="S2C_GetWorkersReply.h">
+      <Filter>Header Files\models\packets</Filter>
+    </ClInclude>
+    <ClInclude Include="C2S_GetShiftsByDay.h">
+      <Filter>Header Files\models\packets</Filter>
+    </ClInclude>
+    <ClInclude Include="S2C_GetShiftsReply.h">
+      <Filter>Header Files\models\packets</Filter>
+    </ClInclude>
+    <ClInclude Include="C2S_InsertShift.h">
+      <Filter>Header Files\models\packets</Filter>
+    </ClInclude>
+    <ClInclude Include="S2C_InsertShiftReply.h">
+      <Filter>Header Files\models\packets</Filter>
+    </ClInclude>
+    <ClInclude Include="C2S_DeleteShift.h">
+      <Filter>Header Files\models\packets</Filter>
+    </ClInclude>
+    <ClInclude Include="S2C_DeleteShiftReply.h">
+      <Filter>Header Files\models\packets</Filter>
+    </ClInclude>
+    <ClInclude Include="C2S_InsertWorker.h">
+      <Filter>Header Files\models\packets</Filter>
+    </ClInclude>
+    <ClInclude Include="S2C_InsertWorkerReply.h">
+      <Filter>Header Files\models\packets</Filter>
+    </ClInclude>
+    <ClInclude Include="S2C_DeleteWorkerReply.h">
+      <Filter>Header Files\models\packets</Filter>
+    </ClInclude>
+    <ClInclude Include="abstractions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="buffers.h">
+      <Filter>Header Files\net</Filter>
+    </ClInclude>
+    <ClInclude Include="RestaurantManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BaseLibrary.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DataBag.cpp">
+      <Filter>Source Files\net</Filter>
+    </ClCompile>
+    <ClCompile Include="Serializable.cpp">
+      <Filter>Source Files\serialization</Filter>
+    </ClCompile>
+    <ClCompile Include="ConnectionBase.cpp">
+      <Filter>Source Files\net</Filter>
+    </ClCompile>
+    <ClCompile Include="Connection.cpp">
+      <Filter>Source Files\net</Filter>
+    </ClCompile>
+    <ClCompile Include="serialization.cpp">
+      <Filter>Source Files\serialization</Filter>
+    </ClCompile>
+    <ClCompile Include="Server.cpp">
+      <Filter>Source Files\net</Filter>
+    </ClCompile>
+    <ClCompile Include="PingService.cpp">
+      <Filter>Source Files\net</Filter>
+    </ClCompile>
+    <ClCompile Include="UserPermissions.cpp">
+      <Filter>Source Files\models</Filter>
+    </ClCompile>
+    <ClCompile Include="C2S_DeleteWorker.h">
+      <Filter>Header Files\models\packets</Filter>
+    </ClCompile>
+    <ClCompile Include="buffers.cpp">
+      <Filter>Source Files\net</Filter>
+    </ClCompile>
+    <ClCompile Include="RestaurantManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+</Project>
